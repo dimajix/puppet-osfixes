@@ -1,5 +1,5 @@
 name 'kupferk-osfixes'
-version '0.1.1'
+version '0.1.2'
 source 'https://github.com/kupferk/puppet-osfixes'
 author 'Kaya Kupferschmidt <k.kupferschmidt@dimajix.de>'
 license 'Apache 2.0'

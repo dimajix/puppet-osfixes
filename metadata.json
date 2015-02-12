@@ -1,6 +1,6 @@
 {
   "name": "kupferk-osfixes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Kaya Kupferschmidt <k.kupferschmidt@dimajix.de>",
   "summary": "A module for fixing small O/S specific issues",
   "license": "Apache 2.0",
