@@ -1,16 +1,40 @@
 {
   "name": "kupferk-osfixes",
   "version": "0.1.0",
-  "author": "kupferk",
+  "author": "Kaya Kupferschmidt <k.kupferschmidt@dimajix.de>",
   "summary": "A module for fixing small O/S specific issues",
   "license": "Apache 2.0",
-  "source": "",
-  "project_page": null,
+  "source": "https://github.com/kupferk/puppet-osfixes",
+  "project_page": "https://github.com/kupferk/puppet-osfixes",
   "issues_url": null,
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
       "version_range": ">= 1.0.0"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+    "operatingsystem": "Debian",
+    "operatingsystemrelease": ["7"]
+    },
+    {
+    "operatingsystem": "Ubuntu",
+    "operatingsystemrelease": ["14.04"]
+    },
+    {
+    "operatingsystem": "Fedora",
+    "operatingsystemrelease": ["21"]
     }
   ]
 }
